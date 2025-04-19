@@ -5,10 +5,10 @@ import Accordian from "./components/accordian/index";
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 // import GithubProfileFinder from "./components/github-profile-finder";
-import ImageSlider from "./components/image-slider";
+// import ImageSlider from "./components/image-slider";
 // import LightDarkMode from "./components/light-dark-mode";
-// import LoadMoreData from "./components/load-more-data";
-// import QRCodeGenerator from "./components/qr-code-generator";
+// import LoadMoreData from "./components/image-api/index";
+import QRCodeGenerator from "./components/qr-code-generator";
 // import RandomColor from "./components/random-color";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
@@ -34,11 +34,11 @@ function App() {
       {/* <StarRating noOfStars={10}/> */}
 
       {/* Image slider component */}
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      />
+      /> */}
 
       {/* Load more products component */}
       {/* <LoadMoreData/> */}
@@ -47,7 +47,7 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* QR code generator */}
-      {/* <QRCodeGenerator/> */}
+      <QRCodeGenerator/>
 
       {/* light and dark theme switch */}
       {/* <LightDarkMode/> */}
