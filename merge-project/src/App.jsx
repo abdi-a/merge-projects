@@ -1,5 +1,5 @@
 import "./App.css";
-import Accordian from "./components/accordian/index";
+// import Accordian from "./components/accordian/index";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
 // import TabTest from "./components/custom-tabs/tab-test";
 // import FeatureFlags from "./components/feature-flag";
@@ -8,9 +8,9 @@ import Accordian from "./components/accordian/index";
 // import ImageSlider from "./components/image-slider";
 // import LightDarkMode from "./components/light-dark-mode";
 // import LoadMoreData from "./components/image-api/index";
-import QRCodeGenerator from "./components/qr-code-generator";
+// import QRCodeGenerator from "./components/qr-code-generator";
 // import RandomColor from "./components/random-color";
-// import ScrollIndicator from "./components/scroll-indicator";
+import ScrollIndicator from "./components/scroll-indicator";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 // import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 // import SearchAutocomplete from "./components/search-autocomplete-with-api";
@@ -47,13 +47,13 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* QR code generator */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
 
       {/* light and dark theme switch */}
       {/* <LightDarkMode/> */}
 
       {/* Scroll indicator component */}
-      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
 
       {/* Custom tabs component */}
       {/* <TabTest /> */}
